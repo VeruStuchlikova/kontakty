@@ -8,14 +8,28 @@ body {
 }
 
 /* ---------------------------------------------------- */
-
+.tym {
+	justify-content: space-between;
+	margin-bottom: 20px;
+	
+}
 .osoba {
 	border: 1px rgb(170, 163, 163) solid;
-	max-width: 540px;
+	max-width: 250px;
 	border-radius: 30px;
 	justify-content: center;
 	padding: 20px;
+	text-align: center;
+}
+img {
+	border-radius: 50%;
+	
 }
 @media (min-width=540px) {
+	.tym { 
+		display: flex;
+		flex-wrap: wrap;
+
+	}
 	
 }
