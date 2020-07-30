@@ -8,3 +8,14 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.osoba {
+	border: 1px rgb(170, 163, 163) solid;
+	max-width: 540px;
+	border-radius: 30px;
+	justify-content: center;
+	padding: 20px;
+}
+@media (min-width=540px) {
+	
+}
