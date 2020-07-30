@@ -15,21 +15,23 @@ body {
 }
 .osoba {
 	border: 1px rgb(170, 163, 163) solid;
-	max-width: 250px;
 	border-radius: 30px;
 	justify-content: center;
 	padding: 20px;
 	text-align: center;
+	margin: 20px;
 }
 img {
 	border-radius: 50%;
 	
 }
-@media (min-width=540px) {
+@media (min-width: 540px) {
 	.tym { 
 		display: flex;
 		flex-wrap: wrap;
-
+		max-width: 960px;
 	}
-	
+	.osoba {
+		width: calc(100% / 2 - 40px);
+	}
 }
