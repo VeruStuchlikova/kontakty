@@ -23,8 +23,12 @@ body {
 }
 img {
 	border-radius: 50%;
-	
 }
+h1 {
+		text-align: center;
+	}
+	
+
 @media (min-width: 540px) {
 	.tym { 
 		display: flex;
@@ -34,4 +38,22 @@ img {
 	.osoba {
 		width: calc(100% / 2 - 40px);
 	}
+h1 {
+		text-align: center;
+	}
+}
+
+@media (min-width: 961px) {
+	.tym { 
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1200px;
+	}
+.osoba {
+	width: calc(100% / 4 - 40px);
+
+}
+h1 {
+	text-align: center;
+}
 }
